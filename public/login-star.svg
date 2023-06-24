@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="534" height="534" viewBox="0 0 534 534">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.188" y1="0.1" x2="0.773" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff09f"/>
+      <stop offset="1" stop-color="#fc8049"/>
+    </linearGradient>
+    <filter id="Trazado_9996" x="71" y="309" width="164.485" height="160.198" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#2379c9" flood-opacity="0.231"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="0" x2="0.5" y2="1" xlink:href="#linear-gradient"/>
+    <filter id="Trazado_9997" x="115" y="113" width="115.518" height="113.241" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-2"/>
+      <feFlood flood-color="#2379c9" flood-opacity="0.231"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_39189" data-name="Grupo 39189" transform="translate(-87 -111)">
+    <rect id="Rectángulo_7649" data-name="Rectángulo 7649" width="534" height="534" transform="translate(87 111)" fill="#fff" opacity="0"/>
+    <g transform="matrix(1, 0, 0, 1, 87, 111)" filter="url(#Trazado_9996)">
+      <path id="Trazado_9996-2" data-name="Trazado 9996" d="M59.811,4.7,71.4,28.11l25.855,3.8A8.442,8.442,0,0,1,101.933,46.3L83.247,64.561,87.632,90.32a8.444,8.444,0,0,1-12.246,8.894L52.242,87.087,29.1,99.214A8.442,8.442,0,0,1,16.856,90.32l4.381-25.759L2.548,46.3a8.441,8.441,0,0,1,4.68-14.391l25.849-3.8L44.677,4.7a8.445,8.445,0,0,1,15.134,0" transform="translate(101 329)" fill="url(#linear-gradient)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 87, 111)" filter="url(#Trazado_9997)">
+      <path id="Trazado_9997-2" data-name="Trazado 9997" d="M31.78,2.5l6.16,12.441,13.738,2.017A4.486,4.486,0,0,1,54.162,24.6l-9.929,9.7,2.33,13.687a4.487,4.487,0,0,1-6.507,4.726l-12.3-6.444-12.3,6.444a4.486,4.486,0,0,1-6.5-4.726L11.284,34.3l-9.93-9.7a4.485,4.485,0,0,1,2.487-7.647l13.735-2.017L23.739,2.5a4.487,4.487,0,0,1,8.042,0" transform="translate(145 133)" fill="url(#linear-gradient-2)"/>
+    </g>
+    <path id="Trazado_9998" data-name="Trazado 9998" d="M45.52,3.574l8.823,17.819L74.02,24.282a6.425,6.425,0,0,1,3.557,10.953l-14.221,13.9,3.337,19.6a6.426,6.426,0,0,1-9.32,6.769L39.759,66.279,22.143,75.508a6.425,6.425,0,0,1-9.315-6.769l3.334-19.6L1.939,35.235A6.424,6.424,0,0,1,5.5,24.282l19.673-2.889L34,3.574a6.427,6.427,0,0,1,11.518,0" transform="translate(456.482 340)" fill="url(#linear-gradient-2)"/>
+    <g id="Rectángulo_7646" data-name="Rectángulo 7646" transform="translate(555.293 468.408) rotate(150)" fill="rgba(255,255,255,0)" stroke="#00b1e1" stroke-width="1">
+      <rect width="27.368" height="27.368" rx="6" stroke="none"/>
+      <rect x="0.5" y="0.5" width="26.368" height="26.368" rx="5.5" fill="none"/>
+    </g>
+    <g id="Rectángulo_7647" data-name="Rectángulo 7647" transform="translate(159.395 636.901) rotate(-150)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="1">
+      <rect width="27.013" height="27.013" rx="6" stroke="none"/>
+      <rect x="0.5" y="0.5" width="26.013" height="26.013" rx="5.5" fill="none"/>
+    </g>
+    <g id="Rectángulo_7648" data-name="Rectángulo 7648" transform="translate(192 161.991) rotate(150)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="1">
+      <rect width="36.018" height="36.018" rx="6" stroke="none"/>
+      <rect x="0.5" y="0.5" width="35.018" height="35.018" rx="5.5" fill="none"/>
+    </g>
+  </g>
+</svg>
