@@ -62,7 +62,7 @@ export const LoginView = () => {
                   src="/logo-bgr.svg"
                 />
               </ImageWrapper>
-              <FormTitle>Iniciar sesion</FormTitle>
+              <FormTitle>Iniciar sesión</FormTitle>
               <BoxFields>
                 <InputField
                   label="Nombre de usuario"
@@ -78,9 +78,9 @@ export const LoginView = () => {
               </BoxFields>
               <BoxButtons>
                 <ButtonPrimary type="submit">INGRESAR</ButtonPrimary>
-                {/* <ButtonForgotPassword type="button">
+                <ButtonForgotPassword type="button">
                   ¿Has olvidado tu contraseña{" "}
-                </ButtonForgotPassword> */}
+                </ButtonForgotPassword>
               </BoxButtons>
             </LoginFormCard>
           </LoginFormBox>
