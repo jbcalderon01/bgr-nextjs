@@ -19,7 +19,7 @@ export const DashboardView = () => {
         initial={{ y: 50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
       >
-        {APP_MODULES.map((module) => (
+        {APP_MODULES.map((module, index) => (
           <Link key={module.path} href={module.path}>
             <ModuleBox>
               <ModuleCard>
