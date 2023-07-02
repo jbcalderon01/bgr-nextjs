@@ -33,11 +33,11 @@ export const Header: FC<HeaderProps> = ({
         <GoBackButton onClick={onClickBack}>
           <FontAwesomeIcon size="lg" icon={faChevronLeft} />
         </GoBackButton>
-        <HeaderLogo onClick={onClickLogo}>
+        {/* <HeaderLogo onClick={onClickLogo}>
           <Image alt="logo-image" src="/logo-small.svg" fill />
-        </HeaderLogo>
+        </HeaderLogo> */}
         <LogoutButton onClick={onClickLogout}>
-          <span>CERRAR SESIÓN</span>
+          <span>CERRAR SECIÓN</span>
           <FontAwesomeIcon size="lg" icon={faArrowRightFromBracket} />
         </LogoutButton>
       </HeaderBox>

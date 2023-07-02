@@ -7,7 +7,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { ChildrenBox, LayoutGrid } from "./MainLayout.styles";
 
 const SUB_HEADERS: Record<string, string> = {
-  "/admin": "Dashboard",
+  "/admin": "dashboard",
 };
 
 export const MainLayout: FC<MainLayoutProps> = ({ children }) => {

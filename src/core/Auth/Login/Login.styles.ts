@@ -64,7 +64,7 @@ export const FormTitle = styled.p`
 export const BoxFields = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  /* gap: 12px; */
   margin-top: 24px;
 `;
 

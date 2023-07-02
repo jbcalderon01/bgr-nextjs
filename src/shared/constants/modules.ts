@@ -1,14 +1,14 @@
 export const APP_MODULES = [
   {
-    title: "Nuevo crédito",
+    title: "Nuevo credito",
     path: "/admin/nuevo-credito",
     icon: "/icon-new-credit.png",
   },
-  {
-    title: "Mis créditos",
-    path: "/admin/mis-creditos",
-    icon: "/icon-my-credits.png",
-  },
+  // {
+  //   title: "Mis créditos",
+  //   path: "/admin/mis-creditos",
+  //   icon: "/icon-my-credits.png",
+  // },
   {
     title: "Aprobación",
     path: "/admin/aprobacion",
@@ -20,3 +20,11 @@ export const APP_MODULES = [
     icon: "/icon-wallet.png",
   },
 ];
+
+const moduleRender = (index: number) => {
+  return `Module ${index}`;
+};
+
+for (let i = 0; i < APP_MODULES.length; i++) {
+  moduleRender(i);
+}
